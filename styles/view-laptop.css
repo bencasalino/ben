@@ -1,0 +1,77 @@
+/* LAPTOP VIEW  */
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+    body {
+        background: yellow;
+    }
+        /* begin nav styles laptop */
+    .header-title {
+        color: black;
+        font-family: "Libre Baskerville", serif;
+        font-size: 1rem;
+    }
+        /* end nav styles laptop  */
+        .parent-me {
+            display: flex;
+                        flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            background-color: white;
+            min-height: 50vh;
+            align-items:
+            width:500px;
+
+        }
+
+        .circle-me {
+        color:black;
+        }
+
+
+        .more-about-me {
+        color:black;
+        }
+
+        .clymb-wrapper{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            background-color: #e34d42;
+            min-height: 10vh;
+        }
+
+
+        .clients{
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row nowrap;
+            align-items: center;
+            background-color: #e34d42;
+            min-height: 20vh;
+        }
+        .client-tile {
+                background-color: #e34d42;
+            height: 15vh;
+            
+            /*width: 15vh;*/
+            -webkit-box-shadow: 0px 11px 24px 0px rgba(26,26,26,1);
+        -moz-box-shadow: 0px 11px 24px 0px rgba(26,26,26,1);
+        box-shadow: 0px 11px 24px 0px rgba(26,26,26,1);
+        }
+
+        .about-clymb {
+            display: flex;
+                flex-flow: row nowrap;
+                justify-content: space-around;
+        }
+
+        .desc {
+        padding-left: 1rem;
+        }
+
+        .tandc {
+        padding-right: 1rem;
+        }
+
+}

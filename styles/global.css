@@ -1,0 +1,9 @@
+        body {
+            background: url(z4.png)no-repeat, url(z3.png)no-repeat, url(z2.png)no-repeat, url(z1.png)no-repeat;
+            height: 100vh;
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
