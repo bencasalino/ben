@@ -65,6 +65,7 @@
             justify-content: center;
         }
 
+
 /* dropdown ani */
         a {
             font-size: 1rem;
@@ -155,6 +156,20 @@
 
 
         .item {
-          max-width: 300px;
-          max-height: 300px;
+          max-width: 250px;
+          max-height: 250px;
+        }
+
+
+        .item:hover {
+          /* opacity: .6; */
+          -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+      -o-filter: grayscale(100%);
+     -ms-filter: grayscale(100%);
+         filter: grayscale(100%);
+         -webkit-box-shadow: 0 11px 24px 0 rgba(26, 26, 26, 0.5);
+         -moz-box-shadow: 0 11px 24px 0 rgba(26, 26, 26, 0.5);
+         box-shadow: 0 11px 24px 0 rgba(26, 26, 26, 0.5);
+         /* transition-timing-function: ease-in-out; */
         }

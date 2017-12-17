@@ -111,10 +111,10 @@
         }
 
         .hello {
-            padding: 3rem 0rem 0rem 1rem; 
+            padding: 3rem 0rem 0rem 1rem;
         }
         .bio {
-            padding: 3rem 1rem 0rem 0rem;
+            padding: 3rem 10rem 0rem 0rem;
         }
 
         h1 {
@@ -126,6 +126,7 @@
             padding-top: .4rem;
             font-size: 1rem;
             font-family: 'Lato', sans-serif;
+                font-weight: 900;
         }
 
         h3 {
@@ -141,15 +142,15 @@
         .sm {
              max-height: 25px;
              max-width: 25px;
-             
+
         }
 /* end above the fold  */
         .header-exp {
             padding-top: 1rem;
-            justify-content: center; 
+            justify-content: center;
             height: 10vh;
             width: 100vw;
-            align-content: center; 
+            align-content: center;
             display: flex;
             font-size: 2rem;
         }
@@ -334,6 +335,7 @@ margin-left: 10vh;*/
 
 
 
+
 a {
     font-size: 1rem;
     color: #584E4A;
@@ -393,3 +395,8 @@ a:focus:after {
     -webkit-transition: -webkit-transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s 0.2s;
     transition: transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s 0.2s;
 }
+
+
+/* hr {
+  width: 65%;
+} */
