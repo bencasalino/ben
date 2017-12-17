@@ -1,5 +1,6 @@
         .test {
-            background: url(../images/z-waterfall1.png), url(../images/z-space2.png), url(../images/z-pillar.png), url(../images/z1.png);
+            background: url(../images/z-waterfall1.png),
+             url(../images/z-space2.png), url(../images/z-pillar.png), url(../images/z1.png);
             height: 70vh;
             width: 100vw;
             /* Create the parallax scrolling effect */
