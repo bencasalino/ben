@@ -1,0 +1,113 @@
+
+    /* Basic reset */
+    *,
+    *::before,
+    *::after { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      line-height: 1.45;
+      color: #111;
+      background: #f7f8fb;
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 90vw;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 12px;
+      /* padding-top: 1.25rem;
+      padding-bottom: 1.25rem; */
+      padding: 1.25rem;
+      box-shadow: 0 6px 20px rgba(16,24,40,0.06);
+    }
+
+    header {
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    header h1 {
+      font-size: 1.25rem;
+      margin: 0;
+    }
+
+    /* Four equal columns using CSS Grid */
+    .columns {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 1rem;
+      align-items: start;
+    }
+
+    /* Column card */
+    .col {
+      padding: 1rem;
+      border-radius: 8px;
+      background: linear-gradient(180deg, #ffffff, #fbfdff);
+      border: 1px solid rgba(16,24,40,0.04);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .col h2 {
+      margin: 0 0 0.5rem 0;
+      font-size: 1rem;
+    }
+
+    .col p.lead {
+      margin: 0 0 0.75rem 0;
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    .link-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+      margin-top: auto; /* push list to fill column when needed */
+    }
+
+    .link-list a {
+      text-decoration: none;
+      padding: 0.5rem;
+      border-radius: 6px;
+      display: block;
+      transition: transform 140ms ease, box-shadow 140ms ease;
+    }
+
+    .link-list a:focus,
+    .link-list a:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 18px rgba(16,24,40,0.06);
+      background: rgba(39, 169, 222, 0.06);
+      outline: none;
+    }
+
+    .link-list a:focus {
+      box-shadow: 0 0 0 3px rgba(39,169,222,0.14);
+    }
+
+    /* Responsive: stack columns on smaller screens */
+    @media (max-width: 900px) {
+      .columns { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    @media (max-width: 560px) {
+      .columns { grid-template-columns: 1fr; }
+      body { padding: 1rem; }
+    }
+   a {
+        color: #222;
+    }
+    /* a:visited {
+        color: inherit;
+    } */
